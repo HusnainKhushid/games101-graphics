@@ -1,0 +1,14 @@
+build/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+*.o
+*.so
+*.a
+*.out
+
+# keep curated renders, drop scratch output
+**/output.png
+!results/**
+
+.DS_Store
